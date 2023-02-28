@@ -1,0 +1,10 @@
+.terraform
+.env
+.idea
+*.terraform*
+ssm_backup.zip
+
+# Ignore everything under function directory
+function/*
+# But not this file under function directory
+!function/ssm_backup.py
