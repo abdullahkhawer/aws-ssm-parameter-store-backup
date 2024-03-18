@@ -1,5 +1,9 @@
 # terraform-aws-ssm-parameter-store-backup
 
+- Founder: Abdullah Khawer (LinkedIn: https://www.linkedin.com/in/abdullah-khawer/)
+
+## Introduction
+
 A Terraform Module to create AWS resources which are used to automatically take backup of all the parameters residing on AWS SSM Parameter Store using AWS Lambda function based on a Python script. It is executed daily via AWS CloudWatch or AWS EventBridge. Backup is taken in a `.json` file. Backup file is stored on an AWS S3 bucket.
 
 ## Requirements
