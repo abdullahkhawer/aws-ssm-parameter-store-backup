@@ -4,7 +4,7 @@
 
 ## Introduction
 
-A Terraform Module to create AWS resources which are used to automatically take backup of all the parameters residing on AWS SSM Parameter Store using AWS Lambda function based on a Python script. It is executed daily via AWS CloudWatch or AWS EventBridge. Backup is taken in a `.json` file. Backup file is stored on an AWS S3 bucket.
+A Terraform module to create AWS resources which are used to automatically take backup of all the parameters residing on AWS SSM Parameter Store in JSON format and store it on AWS S3 bucket using AWS Lambda function based on Python. It is executed daily via AWS CloudWatch or AWS EventBridge.
 
 ## Requirements
 
